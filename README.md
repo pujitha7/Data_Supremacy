@@ -23,11 +23,15 @@ AUC-ROC Score
 
 # APPROACH:
 
-#1.A lot of preprocessing has been done to fill NAN values.
-#2.It is a Class-imbalanced classification problem.
-#3.Random Forest model is built with best parameters obtained from Grid Search.
-#4.LSTM model with online learning is built with custom loss function giving more penalty for rare class.
-#5.Random Forest was able to predict majority class well and LSTM model was able to predict minority class well so both of them are stacked to get a better model.
+A lot of preprocessing has been done to fill NAN values.
+
+It is a Class-imbalanced classification problem.
+
+Random Forest model is built with best parameters obtained from Grid Search.
+
+LSTM model with online learning is built with custom loss function giving more penalty for rare class.
+
+Random Forest was able to predict majority class well and LSTM model was able to predict minority class well so both of them are stacked to get a better model.
 
 
 
