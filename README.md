@@ -1,6 +1,6 @@
 # Data_Supremacy
 
-# PROBLEM STATEMENT:
+## PROBLEM STATEMENT:
 
 A training institute which conducts training for analytics/ data science wants to expand their business to manpower recruitment (data science only) as well. 
  
@@ -8,20 +8,20 @@ Company gets large number of signups for their trainings. Now, company wants to 
  
 To understand the factors that lead a person to look for a job change, the agency wants you to design a model that uses the current credentials/demographics/experience to predict the probability of an enrollee to look for a new job.
 
-# INPUT VARIABLES:
+## INPUT VARIABLES:
 
 Demographics, Education, Experience, etc
 
-# TARGET VARIABLE:
+## TARGET VARIABLE:
 
 0 - Not looking for job change
 1 - Looking for job change
 
-# METRIC:
+## METRIC:
 
 AUC-ROC Score
 
-# APPROACH:
+## APPROACH:
 
 A lot of preprocessing has been done to fill NAN values.
 
